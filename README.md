@@ -39,12 +39,6 @@ This project allows users to describe an item (lost or found) and automatically 
 - Users can submit feedback  
 - Feedback stored in `streamlit_feedback.csv`  
 
----
-
-
-*(Your actual filenames may differ; update as needed.)*
-
----
 
 ## 🧰 Tech Stack
 
