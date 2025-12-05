@@ -6,13 +6,13 @@ import pickle
 from datetime import datetime
 from sklearn.metrics.pairwise import cosine_similarity
 
-# ---------- CONFIG - update if needed ----------
-# --- Updated data & model paths (match training script) ---
-DATA_DIR = r"C:/Users/Varun.T/Downloads/lostfound/data"
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
 MODEL_DIR = os.path.join(DATA_DIR, "lr_model_outputs")
 
 TFIDF_PATH  = os.path.join(MODEL_DIR, "tfidf.pkl")
-SVD_PATH    = os.path.join(MODEL_DIR, "svd.pkl")   # may not exist
+SVD_PATH    = os.path.join(MODEL_DIR, "svd.pkl")
 SCALER_PATH = os.path.join(MODEL_DIR, "scaler.pkl")
 MODEL_PATH  = os.path.join(MODEL_DIR, "logreg_model.pkl")
 
