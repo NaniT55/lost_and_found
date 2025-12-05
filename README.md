@@ -46,7 +46,6 @@ This project allows users to describe an item (lost or found) and automatically 
 - **Streamlit** – UI
 - **Scikit-learn** – TF-IDF, SVD, Logistic Regression
 - **Pandas / NumPy** – data processing
-- Optional: **filelock / SQLite / Postgres** for feedback persistence
 
 ---
 
